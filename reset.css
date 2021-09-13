@@ -1,6 +1,9 @@
 html,
 body,
-ul 
+ul,
+p, 
+h1,
+h2
   {
   margin: 0;
   padding: 0;
@@ -14,3 +17,4 @@ ul
 a {
   text-decoration: none;
 }
+
