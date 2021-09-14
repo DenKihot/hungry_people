@@ -66,7 +66,7 @@ main {
   justify-content: center;
   flex-direction: column;
   display: flex;
-  height: calc(100vh - 267px);
+  height: calc(100vh - 205px);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 .main-window__address {
@@ -195,7 +195,7 @@ main {
   right: 10px;
   bottom: 50px;
 }
-.yellow-border {
+.about-us__border {
   top: 50%;
   transform: translateY(-50%);
   left: 55%;
@@ -234,8 +234,9 @@ main {
 }
 .our-team__border {
   position: absolute;
-  left: calc(10% - 20px);
-  top: 40%;
+  top: 15%;
+  left: 25%;
+  transform: translateX(-45%);
   z-index: 2;
 }
 .our-team__left-block img {
@@ -258,6 +259,7 @@ main {
   /* background: white; */
   width: 600px;
   height: 240px;
+  margin-bottom: 50px;
 }
 .our-team__text-box h2 {
   color: white;
@@ -281,7 +283,7 @@ main {
 .our-team__center-line {
   position: absolute;
   left: 50%;
-  top: calc(150% + 15px);
+  /* top: calc(150% + 15px); */
   height: 680px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -309,18 +311,75 @@ main {
   margin-top: 225px;
   background: grey;
   height: 575px;
+  border: 15px sold black;
 }
 .book-table__blocks {
   display: flex;
   justify-content: center;
   width: 1440px;
-  height: 100%;
+  height: 475px;
+  border: 1px solid black;
 }
 .book-table__left-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   width: 50%;
   background: lightgrey;
 }
+.book-table__text-block {
+  height: 350px;
+  width: 565px;
+  background:#BBB5B5;
+
+}
+.book-table h2 {
+  font-family: "Banny", sans-serif;
+  font-size: 2.2rem;
+  color: black;
+  text-align: center;
+}
+.book-table  hr {
+  margin-bottom: 25px;
+}
+.book-table__form {
+  display: grid;
+  grid-template-columns: 277px 277px;
+  gap: 10px;
+}
+.book-table__form input {
+  height: 60px;
+  background: #E5E5E5;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+.book-table__button {
+  width: 565px;
+  margin-top: 10px;
+  background-color: #eec800;
+}
 .book-table__right-block {
+  position: relative;
   width: 50%;
-  background: lightgrey;
+  background: white;
+  border: 1px solid red; 
+}
+.book-table__right-block img {
+  padding-left: 70px;
+}
+
+.book-table__border {
+  left: 50%;
+  transform: translateX(10%);
+  top: 20%;  
+}
+.block-table__footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  /* background: #4F4F4F; */
+  color: #cccccc;
 }
