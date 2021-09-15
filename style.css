@@ -347,14 +347,23 @@ main {
   grid-template-columns: 277px 277px;
   gap: 10px;
 }
-.book-table__form input {
+.book-table__form input,
+.book-table__form select
+{
   height: 60px;
   background: #E5E5E5;
   border-radius: 5px;
   border: none;
   outline: none;
   padding-left: 20px;
+  color: #333333;
 }
+
+.book-table__form input::placeholder{
+  color: #333333;
+}
+
+
 .book-table__button {
   width: 565px;
   margin-top: 10px;

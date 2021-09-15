@@ -121,10 +121,18 @@
             <hr class="book-table__hr">
             <form action="#" class="book-table__form">
               <input type="text" placeholder="Name"> <input type="email" placeholder="Email">
-              <input type="text" placeholder="Phone"> <input type="text" placeholder="People">
-              <input type="text" placeholder="Date (mm/dd)"> <input type="text" placeholder="Time">
+              <input type="text" placeholder="Phone">
+              <select type="text">
+                <option>People</option>
+                <option>пункт 2</option>
+              </select>
+              <input type="text" placeholder="Date (mm/dd)">
+              <select type="text">
+                <option>Time</option>
+                <option>пункт 2</option>
+              </select>
+              <button class="book-table__button button" type="submit">BOOK NOW</button>
             </form>
-            <button class="book-table__button button">BOOK NOW</button>
           </div>
         </div>
         <div class="book-table__right-block">
@@ -132,7 +140,11 @@
           <img src="images/clock.jpg" alt="clock">
         </div>
       </div>
-      <div class="block-table__footer"> Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</div>
+      <div class="block-table__footer">
+        <time datatime="2021-09-13 20:00 - 22:00">Mon - Fri: 8PM-10PM</time>
+        <time datatime="2021-09-18 20:00 - 03:00">Sat - Sun: 8PM - 3AM,</time>
+        <a href="tel:40 729 131 637">Phone: +40 729 131 637/+40 726 458 782</a>
+        </div>
     </div>
   </article> 
   <article class="specialties">
