@@ -146,10 +146,12 @@ main {
   align-items: center;
   width: 100%;
   height: 680px;
+  margin: 0 auto;
 }
 .about-us__wrapper {
   display: flex;
   width: 1280px;
+  margin: 0 auto;
   height: 475px;
   /* background: #000; */
 }
@@ -210,6 +212,7 @@ main {
 }
 .our-team__wrapper {
    width: 1440px;
+   margin: 0 auto;
 }
 .our-team__header-page {
   display: flex;
@@ -305,32 +308,34 @@ main {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 0 auto;
 }
 .book-table__wrapper {
   width: 1440px;
+  margin: 0 auto;
   margin-top: 225px;
-  background: grey;
+  /* background: grey; */
   height: 575px;
-  border: 15px sold black;
+  /* border: 15px sold black; */
 }
 .book-table__blocks {
   display: flex;
   justify-content: center;
   width: 1440px;
   height: 475px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .book-table__left-block {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 50%;
-  background: lightgrey;
+  /* background: lightgrey; */
 }
 .book-table__text-block {
   height: 350px;
   width: 565px;
-  background:#BBB5B5;
+  /* background:#BBB5B5; */
 
 }
 .book-table h2 {
@@ -372,17 +377,18 @@ main {
 .book-table__right-block {
   position: relative;
   width: 50%;
-  background: white;
-  border: 1px solid red; 
+  /* background: white;
+  border: 1px solid red;  */
 }
 .book-table__right-block img {
-  padding-left: 70px;
+  margin-left: 70px;
+  margin-top: 20px;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.5);
 }
 
 .book-table__border {
   left: 50%;
-  transform: translateX(10%);
+  transform: translateX(-10%);
   top: 20%;  
 }
 .block-table__footer {
@@ -392,9 +398,10 @@ main {
   padding-top: 50px;
   color: #cccccc;
 }
-our-team__wrapper {
-  width: 1440px;
+.block-table__footer a{
+  color: #999999
 }
+
 
 .specialties {
   display: flex;
@@ -407,6 +414,7 @@ our-team__wrapper {
 
 .specialties__wrapper {
   width: 1440px;
+  margin: 0 auto;
 }
 .specialties__header-page {
   display: flex;
@@ -503,6 +511,158 @@ our-team__wrapper {
 }
 
 .specialties__right-line {
+  position: absolute;
+  right: 295px;
+  bottom: -5px;
+  height: 680px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 680px;
+  margin: 0 auto;
+}
+
+.about-us__wrapper {
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  height: 475px;
+  /* background: #000; */
+}
+
+.about-us__left-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: lightgrey; */
+  height: 100%;
+  width: 50%;
+}
+
+.about-us__text-box {
+  width: 600px;
+  height: 240px;
+  /* background: white; */
+}
+
+.about-us__text-box h2 {
+  color: black;
+  font-family: "Banny", sans-serif;
+  font-size: 2.25rem;
+  text-align: center;
+
+}
+
+.about-us__text-box p {
+  color: black;
+  font-family: "Open Sans", serif;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-us__text-box>p:last-child {
+  font-size: .875rem;
+  margin-top: 20px;
+}
+
+.about-us__right-block {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  /* background: lightgrey; */
+}
+
+.about-us__right-block img {
+  position: relative;
+  right: 10px;
+  bottom: 50px;
+}
+
+.pancakes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 680px;
+  background: url("images/specialty\'s-bg.jpg") no-repeat center center / cover;
+  margin: 0 auto;
+}
+.pancakes__wrapper {
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  height: 675px;
+  /* background: #000; */
+}
+.pancakes__left-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: lightgrey; */
+  height: 100%;
+  width: 50%;
+}
+.pancakes__text-box {
+  width: 600px;
+  height: 240px;
+  /* background: white; */
+}
+.pancakes__text-box h2 {
+  color: white;
+  font-family: "Banny", sans-serif;
+  font-size: 2.25rem;
+  text-align: center;
+
+}
+.pancakes__text-box p {
+  color: white;
+  font-family: "Open Sans", serif;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-top: 20px;
+}
+.pancakes__text-box>p:last-child {
+  font-size: .875rem;
+  margin-top: 20px;
+}
+.pancakes__right-block {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  /* background: lightgrey; */
+}
+.pancakes__right-block img {
+  position: relative;
+  left: 30px;
+  top: 80px;
+  /* width: 100%;
+  height: 100%; */
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.5);
+  object-fit: contain;
+}
+.pancakes__border {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 55%;
+} __border {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 55%;
+}
+.pancakes__left-line {
+  position: absolute;
+  left: 295px;
+  bottom: -5px;
+  height: 680px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pancakes__right-line {
   position: absolute;
   right: 295px;
   bottom: -5px;
