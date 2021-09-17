@@ -75,10 +75,6 @@ main {
    transform: rotate(-90deg);
  
 }
-.main-window__title-block {
-  width: 849px;
-  
-}
 .main-window__right-block {
   width: 295px;
   height: calc(100vh - 94px);
@@ -101,6 +97,8 @@ main {
 
 .main-window__title-block {
   margin-top: 200px;
+  width: 849px;
+  height: auto;
 } 
 .main-window__title-block h2{
   text-align: center;
@@ -223,6 +221,7 @@ main {
 }
 .our-team__header-page h2 {
   font-size: .85rem;
+  letter-spacing: .5em;
 }
 .our-team__blocks {
   display: flex;
@@ -313,7 +312,7 @@ main {
 .book-table__wrapper {
   width: 1440px;
   margin: 0 auto;
-  margin-top: 225px;
+  margin-top: 100px;
   /* background: grey; */
   height: 575px;
   /* border: 15px sold black; */
@@ -377,6 +376,7 @@ main {
 .book-table__right-block {
   position: relative;
   width: 50%;
+  display: flex;
   /* background: white;
   border: 1px solid red;  */
 }
@@ -415,6 +415,7 @@ main {
 .specialties__wrapper {
   width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 .specialties__header-page {
   display: flex;
@@ -426,6 +427,7 @@ main {
 
 .specialties__header-page h2 {
   font-size: .85rem;
+  letter-spacing: 0.5em;
 }
 
 .specialties__blocks {
