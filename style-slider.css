@@ -1,14 +1,14 @@
-.slick-dots {
+section .slick-dots {
     bottom: 45px !important;
 }
 
-.slick-dots li button:before {
+section .slick-dots li button:before {
     color: rgba(255, 255, 255, 0.5) !important;
     font-size: 10px !important;
     opacity: 1 !important;
 }
 
-.slick-dots li.slick-active button:before {
+section .slick-dots li.slick-active button:before {
     color: white !important;
     opacity: 1 !important;
 }
