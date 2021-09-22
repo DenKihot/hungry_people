@@ -28,3 +28,11 @@ button {
   color: #ffffff;
   font-size: .8rem;
 }
+.black-line {
+  position: absolute;
+  width: 445px;
+  height: 80px;
+  background: #000;
+  color:#ffffff;
+  
+}

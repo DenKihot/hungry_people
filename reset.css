@@ -17,3 +17,17 @@ h2
 a {
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
+input {
+  border:none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+textarea {
+   border:none;
+   outline: none;
+   resize: none;
+}
