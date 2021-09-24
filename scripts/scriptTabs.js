@@ -5,7 +5,7 @@ const pastaMenu = document.querySelector('.pasta')
 const desertMenu = document.querySelector('.desert')
 const wineMenu = document.querySelector('.wine')
 const beerMenu = document.querySelector('.beer')
-const drinksMenu = document.querySelector('.beer')
+const drinksMenu = document.querySelector('.drinks')
 
 console.log(soupMenu)
 
