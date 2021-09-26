@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="src/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="src/slick-1.8.1/slick/slick.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=95a1aa72-f9e3-4246-a72b-abd2eff64020&lang=ru_RU" type="text/javascript">
+</script>
     <title>Hungry People</title>
 </head>
 <body>
@@ -129,15 +131,19 @@
                       <form action="#" class="book-table__form">
                           <input type="text" placeholder="Name"> <input type="email" placeholder="Email">
                           <input type="text" placeholder="Phone">
-                          <select type="text">
-                              <option>People</option>
-                              <option>пункт 2</option>
-                          </select>
+                          <div class="select">
+                            <select type="text">
+                                <option>People</option>
+                                <option>пункт 2</option>
+                            </select>
+                          </div>
                           <input type="text" placeholder="Date (mm/dd)">
-                          <select type="text">
-                              <option>Time</option>
-                              <option>пункт 2</option>
-                          </select>
+                          <div class="select"> 
+                            <select type="text">
+                                <option>Time</option>
+                                <option>пункт 2</option>
+                            </select>
+                          </div>
                           <button class="book-table__button button" type="submit">BOOK NOW</button>
                       </form>
                   </div>
@@ -909,8 +915,8 @@
   </article>  
   
   <article class="location">
-    <article class="location__wrapper" id="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d215324.82163349818!2d30.149289627849623!3d59.90701419849645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1632333451911!5m2!1sru!2sru" style="width:100%; height:100%; border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <article class="location__wrapper" id="maps">
+      <div id="map" style="width: 100%; height: 475px"></div>
     </article>
   </article>
     
@@ -927,14 +933,6 @@
   <script src="scripts/script.js"></script>
   <script src="scripts/scriptTabs.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZGH2OOuaarGuQt2EsGd4tEFSg_d6dWWY"></script>
-  <script>
-    function initMap() {
-    var coordinates = {lat: 51.51030907021375, lng: -0.13012042825638376},  
-    
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: coordinates
-        });
-}
-  </script>
+  <script src="scripts/jandexMap.js"></script>
 </body>
 </html>
